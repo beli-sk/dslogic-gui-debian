@@ -1,0 +1,15 @@
+Source: dslogic-gui
+Section: unknown
+Priority: optional
+Maintainer: Michal Belica <devel@beli.sk>
+Build-Depends: debhelper (>= 9), cmake
+Standards-Version: 3.9.5
+Homepage: http://dreamsourcelab.com/
+Vcs-Git: https://github.com/beli-sk/dslogic-gui-debian.git
+Vcs-Browser: https://github.com/beli-sk/dslogic-gui-debian
+
+Package: dslogic-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software for DSLogic analyzer.
+ GUI software for DSLogic analyzer, based on sigrok.
