@@ -1,0 +1,4 @@
+?package(dslogic-gui):
+  needs="X11"\
+  section="Science/Electronics"\
+  title="DSLogic" command="/usr/bin/DSLogic"
