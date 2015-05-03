@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=DSView
+Comment=Software for DreamSourceLab tools
+Exec=pkexec /usr/bin/DSView
+Icon=dsview
+Terminal=false
+Type=Application
+Categories=Science;Electronics;
+StartupNotify=true

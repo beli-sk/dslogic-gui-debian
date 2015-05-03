@@ -1,0 +1,15 @@
+Remove checking for decoders directory in application directory.
+--- a/main.cpp
++++ b/main.cpp
+@@ -122,11 +122,6 @@
+ 	do {
+ 
+ #ifdef ENABLE_DECODE
+-        QDir dir(QCoreApplication::applicationDirPath());
+-        assert(dir.cd("decoders"));
+-        std::string str = dir.absolutePath().toStdString() + "/";
+-        strcpy(decoders_path, str.c_str());
+-
+ 		// Initialise libsigrokdecode
+ 		if (srd_init(NULL) != SRD_OK) {
+ 			qDebug() << "ERROR: libsigrokdecode init failed.";

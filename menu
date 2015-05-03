@@ -1,4 +1,5 @@
 ?package(dslogic-gui):
   needs="X11"\
   section="Science/Electronics"\
-  title="DSLogic" command="/usr/bin/DSLogic"
+  icon="/usr/share/pixmaps/dsview.xpm"\
+  title="DSView" command="pkexec /usr/bin/DSView"

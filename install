@@ -1,0 +1,3 @@
+debian/com.dreamsourcelab.pkexec.dsview.policy usr/share/polkit-1/actions
+debian/dsview.xpm usr/share/pixmaps
+debian/dsview.desktop usr/share/applications

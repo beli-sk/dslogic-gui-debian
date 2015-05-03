@@ -1,14 +1,14 @@
-Source: dslogic-gui
+Source: dsview
 Section: unknown
 Priority: optional
 Maintainer: Michal Belica <devel@beli.sk>
-Build-Depends: debhelper (>= 9), cmake, libglib2.0-dev (>= 2.28.0), libqt4-dev (>= 4.5), libboost-dev (>= 1.42), libboost-test-dev (>= 1.42), libboost-thread-dev (>= 1.42), libboost-system-dev (>= 1.42), libboost-filesystem-dev (>= 1.42), libsigrokdecode-dev, libsigrok4dslogic-dev (>= 0.4), libsigrokdecode-dev (>= 0.3.0)
+Build-Depends: debhelper (>= 9), cmake, libglib2.0-dev (>= 2.28.0), libqt4-dev (>= 4.5), libboost-dev (>= 1.42), libboost-test-dev (>= 1.42), libboost-thread-dev (>= 1.42), libboost-system-dev (>= 1.42), libboost-filesystem-dev (>= 1.42), libsigrok4dsl-dev (>= 0.4), libsigrokdecode-dev (>= 0.3.0)
 Standards-Version: 3.9.5
 Homepage: http://dreamsourcelab.com/
-Vcs-Git: https://github.com/beli-sk/dslogic-gui-debian.git
-Vcs-Browser: https://github.com/beli-sk/dslogic-gui-debian
+Vcs-Git: https://github.com/beli-sk/dsview-debian.git
+Vcs-Browser: https://github.com/beli-sk/dsview-debian
 
-Package: dslogic-gui
+Package: dsview
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Software for DSLogic analyzer.

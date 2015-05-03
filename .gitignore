@@ -3,4 +3,4 @@ tmp/
 files
 *.substvars
 *.debhelper
-dslogic-gui/
+dsview/
